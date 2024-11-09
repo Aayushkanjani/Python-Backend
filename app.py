@@ -24,7 +24,7 @@ if hf_token is None:
     raise EnvironmentError("Hugging Face API token not set in environment.")
 
 # Hugging Face model API URL
-model_api_url = "https://api-inference.huggingface.co/models/meta-llama/Llama-3.1-8B"
+model_api_url = "https://api-inference.huggingface.co/models/meta-llama/Llama-2-7b"
 
 # Function to make requests to Hugging Face API
 def call_hugging_face_api(input_text):
